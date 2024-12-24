@@ -7,3 +7,24 @@ body{
     margin:0;
     background-color: #f2f2f2;
 }
+
+.container{
+    width:300px;
+    padding:20px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+li{
+    padding:10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completed{
+    text-decoration: line-through;
+    color:#888;
+}
